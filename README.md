@@ -31,7 +31,7 @@ To get a local copy up and running, follow these simple steps:
 
 Clone the repository:
 git clone https://github.com/afuahsekyiwaaadusei/Tic-Tac-Toe-AI.git
-cd tic-tac-toe-ai
+cd Tic-Tac-Toe-AI
 
 Install dependencies:
 npm install
