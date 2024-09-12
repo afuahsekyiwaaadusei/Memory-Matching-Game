@@ -1,72 +1,61 @@
 # ALX-PORTFOLIO-PROJECT
-Tic-Tac-Toe with Predictive AI
-Welcome to the Tic-Tac-Toe game where the computer predicts your next move! This project showcases a classic game with an added twist of rule-based AI prediction.
-
-Table of Contents
-Introduction
-Features
-Technologies Used
-Installation
-Usage
-Game Rules
-Rule-Based AI Prediction
-Contributing
-License
-Contact
-Introduction
-This project is a modern take on the classic Tic-Tac-Toe game. The game is designed to be played between a human player and a computer. The unique feature of this game is that the computer uses a rule-based AI algorithm to predict the player’s next move and strategize accordingly.
+Memory Matching Game
+Overview
+The Memory Matching Game is a fun and engaging card game where players test their memory by matching pairs of cards. 
+The game is designed to be simple yet challenging, making it a great way to improve memory. 
+Players flip over two cards at a time to find matching pairs. 
+If the cards match, they are cleared from the board. 
+The game continues until all pairs are matched. 
+At the end of the game, players are ranked based on the number of moves it took to complete the game.
 
 Features
-Classic Tic-Tac-Toe gameplay
-Rule-based AI prediction of the player’s next move
-Interactive and user-friendly interface
-Responsive design for various devices
-Easy to install and run
+Interactive Gameplay: Flip two cards at a time to find matching pairs.
+Scoring System: Players are ranked based on the number of moves taken to complete the game.
+Responsive Design: The game is designed to work on various screen sizes.
+Visual Feedback: Cards flip over with smooth animations.
+Persistent Ranking: Track and display the 3 best scores from previous games.
 
 Technologies Used
 Frontend: HTML, CSS, JavaScript
-Rule-Based AI Algorithm 
+
 Installation
-To get a local copy up and running, follow these simple steps:
-
 Clone the repository:
-git clone https://github.com/afuahsekyiwaaadusei/Tic-Tac-Toe-AI.git
-cd Tic-Tac-Toe-AI
+git clone https://github.com/afuahsekyiwaaadusei/Memory-Matching-Game.git
+cd memory-matching-game
 
-Install dependencies:
-npm install
+Open the project: Open the index.html file in your preferred web browser.
 
-Run the application:
-npm run dev
-
-Go to localhost in your browser:
-
-Usage
-Start the game: Open the game in your browser.
-Make your move: Click on any empty cell to place your mark (X or O).
-Computer’s turn: The computer will predict your next move and make its move accordingly.
-Win, lose, or draw: The game continues until there is a winner or a draw.
-
-Game Rules
-The game is played on a 3x3 grid.
-Players take turns placing their marks (X or O) in empty cells.
-The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins.
-If all nine cells are filled and neither player has three in a row, the game is a draw.
-AI Prediction
-The computer checks all possible winning combinations to see if the new move can result in a win else it checks if there's a possible winning combination for the player and moves to block that win. Else it places a move at the first non-empty cell.  
-
+How to Play
+Start the Game: Open the game in your web browser and click on the start button. All images are displayed temporarily for 2 secs.
+Flip Cards: Click on any two cards to flip them over.
+Match Cards: If the two cards match, they will be cleared from the board. If they do not match, they will flip back over.
+Continue Playing: Keep flipping cards to find all the matching pairs.
+Complete the Game: The game ends when all pairs are matched. Your score will be displayed based on the number of moves it took to complete the game.
+View Rankings: Compare your score with previous games to see your ranking.
+Code Structure
+index.html: The main HTML file that contains the structure of the game.
+style.css and score.css : The CSS file for styling the game.
+grid.js and score.js: The JavaScript file that contains the game and ranking logic.
 Contributing
-Contributions are welcome! If you have any ideas or improvements, feel free to fork the repository and submit a pull request.
+Fork the repository: Click the “Fork” button at the top right of the repository page.
+Clone your fork:
+git clone https://github.com/afuahsekyiwaaadusei/Memory-Matching-Game.git
+cd memory-matching-game
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+Create a branch:
+git checkout -b feature-branch
+
+Make your changes: Implement your feature or fix a bug.
+Commit your changes:
+git commit -m "Description of your changes"
+
+Push to your fork:
+git push origin feature-branch
+
+Create a pull request: Go to the original repository and click “New Pull Request”.
 License
-Distributed under the MIT License. See LICENSE for more information.
-
+This project is licensed under the MIT License. See the LICENSE file for details.
 Contact
 Afuah Sekyiwaa Adusei - afuahsekyiwaaa@gmail.com
 
-Project Link: https://github.com/afuahsekyiwaaadusei/Tic-Tac-Toe-AI.git
+Project Link: https://github.com/afuahsekyiwaaadusei/Memory-Matching-Game.git
