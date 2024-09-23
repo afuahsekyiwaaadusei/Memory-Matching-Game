@@ -16,7 +16,7 @@ Visual Feedback: Cards flip over with smooth animations.
 Persistent Ranking: Track and display the 3 best scores from previous games.
 
 Technologies Used
-Frontend: HTML, CSS, JavaScript
+Frontend: HTML, CSS, JavaScript, Node.js, Express.js
 
 Installation
 Clone the repository:
