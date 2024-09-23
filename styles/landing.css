@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #A8BA9A;
+    /* #1a1a1a; */
+    color: #333;
+    /* #fff; */
+    text-align: center;
+}
+
+header {
+    background: #73A580;
+    /* #333; */
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+header .btn {
+    background: #E2725B;
+    /* #ff6600; */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#features {
+    background: #3F826D;
+    padding: 50px 20px;
+}
+
+#features h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #444;
+}
+
+.feature-item {
+    background: #E1AD01;
+    /* #444; */
+    padding: 20px;
+    border-radius: 500px;
+    width: 200px;
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#how-to-play {
+    padding: 50px 20px;
+    background-color: #E1E6E1;
+    justify-content: center;
+}
+
+#how-to-play h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    
+}
+
+#how-to-play ol {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    list-style: decimal;
+    color: #444;
+    
+}
+
+#how-to-play li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    font-size: 0.9em;
+}
+.fun-fact {
+    background: #C1E899;
+    color: #333;
+    padding: 20px;
+    font-size: 0.9em;
+}
+.about {
+    background: #E3DBDB;
+    color: #333;
+    padding: 20px;
+    font-size: 0.9em;
+}

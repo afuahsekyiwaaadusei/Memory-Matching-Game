@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Matching Game</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./js/svg.js" defer></script>
+    <script src="./js/select.js" defer></script>
+    <script src="./js/grid.js" defer></script>
+</head>
+<body>
+<div class="main-container">
+    <header class="header">
+        <div class="start-btn" onclick="handleStartClick()"  style="margin-right: 15em;"><strong>Start</strong></div>
+        <div style="margin-right: 20px;"><strong>Time : <span id="min">00</span> : <span id="sec">00</span></strong></div>
+        <div><strong>Moves : <span id="moves"></span></strong></div>
+    </header>
+    <div class="grid-container" id="container"></div>
+</div>
+</body>
+</html>

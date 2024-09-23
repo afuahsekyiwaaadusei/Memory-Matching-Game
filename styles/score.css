@@ -1,0 +1,95 @@
+/* responsive type */
+@media (min-width: 375px) {
+	/* phones and up */
+	:root {
+		/* font sizes */
+		--fs-xsmall: 12px;
+		--fs-small: 14px;
+		--fs-normal: 18px;
+		--fs-large: 24px;
+		--fs-xlarge: 30px;
+		--space-min-w-text: 250px;
+	}
+}
+@media (min-width: 768px) {
+	/* tablets and up */
+	:root {
+		/* font sizes */
+		--fs-xsmall: 14px;
+		--fs-small: 16px;
+		--fs-normal: 20px;
+		--fs-large: 26px;
+		--fs-xlarge: 30px;
+		--space-min-w-text: 540px;
+	}
+}
+
+@media (min-width: 1024px) {
+	/* laptops and up */
+	:root {
+		/* font sizes */
+		--fs-xsmall: 14px;
+		--fs-small: 18px;
+		--fs-normal: 24px;
+		--fs-large: 30px;
+		--fs-xlarge: 36px;
+	}
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Assuming a sans-serif font */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+}
+
+.main-grid-container {
+    margin-top: 20px;
+      border: 10px solid green;
+      padding: 10px;
+    
+    }
+.win-info{
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+    padding-top: 20px; /* Space above trophy icon */
+    background-color: green; /* Darker blue background for the top section */
+    padding: 20px;
+    /* border-radius: 10px; */
+}
+p {
+    margin-top: 10px; /* Space below trophy icon */
+    font-size: 30px; /* Large text for 'You win' */
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+}
+
+.rank-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.rank-item{
+    color: black;
+    padding: 10px;
+    /* border-radius: 5px; */
+}
+.rank-item.remove {
+    color: white;
+}

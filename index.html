@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Matching Game Landing Page</title>
+    <link rel="stylesheet" href="./styles/landing.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Memory Matching Game</h1>
+        <p>A Great Way to improve short-term memory and visual recognition.</p>
+        <a href="#play" class="btn" onclick="playGame()">Play Now</a>
+    </header>
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature-list">
+            <div class="feature-item">
+                <h3>Themes</h3>
+                <p>You can select differnet themes and categories like animals, flags etc</p>
+            </div>
+            <div class="feature-item">
+                <h3>Multiple Grid Sizes</h3>
+                <p>When you do not feel challenged with smaller board sizes any more, you can pick different and bigger board sizes</p>
+            </div>
+            <div class="feature-item">
+                <h3>Ranking</h3>
+                <p>All games have a timer and additionally we show how many moves you did, and rank your best three games so you can keep track of your progress.</p>
+            </div>
+        </div>
+    </section>
+    <section class="fun-fact">
+        <h2>Fun fact</h2>
+        <p style="font-size: 1.5em;">
+            Kai-awase (貝合わせ) is a traditional shell game with origins in Japan.
+            The interior of the shells featured <br>elaborate paintings, often representing scenes from traditional Japanese literature. 
+            The aim of the game <br>was to find the other half that would fit. Many games were later developed based on it.
+        </p>
+    </section>
+    <section id="how-to-play">
+        <h2>How To Play Memory Match</h2>
+        <ol>
+            <li>Press the start button to start the timer and begin a new game.</li>
+            <li>Choose two cards to flip over at a time and try to remember the images.</li>
+            <li>When you flip two cards, they will be checked for matches. If they match, the cards will be removed from the board, and you continue with the remaining cards.</li>
+            <li>Keep selecting and flipping two cards at a time, trying to find matches until all the cards are cleared from the board. </li>
+            <li>Once all the cards have been matched, you win the game.</li>
+            <li>The timer will stop, and you will be shown the score page.</li>
+        </ol>
+    </section>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I’m Afuah Sekyiwaa Adusei, a passionate web developer with a keen interest in creating engaging and interactive web applications. 
+ One of my recent projects is a Memory Matching Game, designed to improve short-term memory and visual recognition.
+When I’m not coding, I enjoy exploring new technologies and enhancing my skills through various projects. You can check out my work on GitHub.
+Feel free to connect with me on Github and LinkedIn to stay updated with my latest projects and activities.
+        </p>
+    </section>
+    <footer>
+        <p>© 2024 Afuah Sekyiwaa Adusei. All rights reserved.</p>
+        <p>Check out my projects on <a href="https://github.com/afuahsekyiwaaadusei" target="_blank">GitHub</a>.</p>
+    </footer>
+    <script>
+        function playGame() {
+                window.location.href = "./gridSelect.html";
+            }
+    </script>
+</body>
+</html>
+
